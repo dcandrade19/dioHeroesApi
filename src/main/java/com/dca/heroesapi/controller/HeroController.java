@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-//@RestController
+@RestController
 @RequestMapping(value = "/api")
 public class HeroController {
 
