@@ -18,7 +18,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(value = "/api")
+@RequestMapping(value = "api")
 public class HeroController {
 
     @Autowired
